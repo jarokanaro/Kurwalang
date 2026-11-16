@@ -1,0 +1,3 @@
+program {
+    pierdol "Moduł matematyka jest dostarczany przez runtime standard library"
+}

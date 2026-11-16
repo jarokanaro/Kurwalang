@@ -1,0 +1,8 @@
+zajeb_moduł "utils"
+
+kurwa dane = {
+    "marka": utils.marka,
+    "model": "A3"
+}
+
+kurwa napis = utils.napis

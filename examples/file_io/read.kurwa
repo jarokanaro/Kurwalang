@@ -1,0 +1,4 @@
+program {
+    zajeb_moduł "plik"
+    pierdol plik.czytaj("write_demo.txt")
+}

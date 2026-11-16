@@ -1,0 +1,11 @@
+program {
+    zajeb_moduł "dane"
+    kurwa dane_we = {
+        "auta": [
+            {"marka": "Audi", "model": "A3"},
+            {"marka": "BMW", "model": "E46"}
+        ]
+    }
+    kurwa tekst = dane.ładnie_skurw(dane_we)
+    pierdol tekst
+}

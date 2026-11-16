@@ -1,0 +1,17 @@
+program {
+    testuj_kurwa "dodawanie" {
+        sprawdz_kurwa 2 + 2 == 4
+        sprawdz_kurwa 5 > 3
+        sprawdz_kurwa 1 != 2
+    }
+
+    testuj_kurwa "oczekiwany_blad" {
+        oczekuj_blad_kurwa {
+            wyrzuc_kurwa "to ma oczywiście wyjść z błędem"
+        }
+    }
+
+    testuj_kurwa "pominięty" {
+        pomin_kurwa "tymczasowo wyłączone"
+    }
+}

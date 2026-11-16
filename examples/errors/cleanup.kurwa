@@ -1,0 +1,10 @@
+program {
+    wjebaj {
+        wyrzuc_kurwa "boom"
+    } zlap_kurwa blad {
+        pierdol "caught"
+    } wyczysc_kurwa {
+        wypierdol "cleanup"
+    }
+    wypierdol "after"
+}

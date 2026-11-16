@@ -1,0 +1,7 @@
+program {
+    zajeb_moduł "siec"
+
+    kurwa odp = siec.wjeb("http://127.0.0.1:8765/missing")
+    pierdol odp["status_kurwa"]
+    pierdol odp["tekst_kurwa"]
+}

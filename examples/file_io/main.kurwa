@@ -1,0 +1,17 @@
+program {
+    zajeb_moduł "plik"
+    zajeb_moduł "katalog"
+
+    kurwa path = "notatnik.txt"
+    jeśli nie plik.czy_jest(path) {
+        plik.zapisz(path, "Audi A3\n")
+    }
+
+    plik.dopisz(path, "BMW E46\n")
+    kurwa dane = plik.czytaj(path)
+    wypierdol dane
+
+    kurwa katalog_path = "tmp_kurwa"
+    katalog.utworz(katalog_path)
+    pierdol katalog.czy_jest(katalog_path)
+}

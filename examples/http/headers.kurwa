@@ -1,0 +1,9 @@
+program {
+    zajeb_moduł "siec"
+
+    kurwa naglowki = {"X-Trace": "kurwa-demo", "Accept": "application/json"}
+    kurwa odp = siec.wjeb("http://127.0.0.1:8765/headers", {}, naglowki)
+
+    pierdol odp["status_kurwa"]
+    pierdol odp["naglowki_kurwa"]["X-Trace"]
+}

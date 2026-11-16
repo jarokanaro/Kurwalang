@@ -1,0 +1,6 @@
+program {
+    zajeb_moduł "dane"
+    kurwa dane_we = {"tekst": "Kurwa żółć ęąśćłóźż 😎"}
+    kurwa tekst = dane.skurw(dane_we)
+    pierdol dane.odkurw(tekst)["tekst"]
+}

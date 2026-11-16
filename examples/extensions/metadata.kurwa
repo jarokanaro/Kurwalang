@@ -1,0 +1,4 @@
+program {
+    kurwa ext = zaladuj_rozszerzenie("demo_ext")
+    pierdol ext.metadane["wersja_kurwa"]
+}

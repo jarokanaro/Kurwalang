@@ -1,0 +1,21 @@
+program {
+    zajeb_moduł "dane"
+    zajeb_moduł "siec"
+
+    kurwa naglowki = {"X-Client": "kurwa-demo", "Accept": "application/json"}
+    kurwa query = {"q": "żółć", "limit": 2}
+    kurwa payload = {"imie": "Jaro", "emoji": "😎", "aktywny": prawda}
+
+    kurwa get_resp = siec.wjeb("http://127.0.0.1:8765/demo", query, naglowki, 5)
+    kurwa post_resp = siec.wyślij("http://127.0.0.1:8765/demo", payload, naglowki, 5)
+
+    jeśli get_resp["udalo_sie_kurwa"] i post_resp["udalo_sie_kurwa"] {
+        pierdol get_resp["status_kurwa"]
+        pierdol get_resp["tekst_kurwa"]
+        pierdol post_resp["json_kurwa"]["echo"]["imie"]
+    } inaczej {
+        pierdol get_resp["status_kurwa"]
+        pierdol post_resp["status_kurwa"]
+        pierdol post_resp["tekst_kurwa"]
+    }
+}

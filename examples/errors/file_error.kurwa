@@ -1,0 +1,9 @@
+program {
+    wjebaj {
+        zajeb_moduł "plik"
+        kurwa txt = plik.czytaj("nie_ma_takiego_pliku.kurwa")
+    } zlap_kurwa blad {
+        pierdol blad["typ_kurwa"]
+        pierdol blad["wiadomosc_kurwa"]
+    }
+}

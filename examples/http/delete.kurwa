@@ -1,0 +1,7 @@
+program {
+    zajeb_moduł "siec"
+
+    kurwa odp = siec.wyjeb("http://127.0.0.1:8765/delete")
+    pierdol odp["status_kurwa"]
+    pierdol odp["tekst_kurwa"]
+}

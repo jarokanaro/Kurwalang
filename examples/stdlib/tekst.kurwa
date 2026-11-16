@@ -1,0 +1,3 @@
+program {
+    pierdol "Moduł tekst jest dostarczany przez runtime standard library"
+}

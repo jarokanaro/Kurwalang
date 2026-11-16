@@ -1,0 +1,10 @@
+program {
+    zajeb_moduł "obliczenia"
+    zajeb_moduł "auto"
+
+    kurwa wynik = obliczenia.dodaj(5, 10)
+    pierdol wynik
+    pierdol obliczenia.tajna
+    pierdol auto.dane["marka"]
+    pierdol auto.napis
+}

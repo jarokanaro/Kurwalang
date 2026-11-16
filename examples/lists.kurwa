@@ -1,0 +1,21 @@
+program {
+    kurwa liczby = [10, 20, 30]
+    wpierdol liczby 40
+
+    pierdol liczby[0]
+    liczby[1] = 999
+    pierdol liczby[1]
+    pierdol ile_kurwa(liczby)
+
+    kurwa ostatnia = wypierdol_z_listy liczby
+    pierdol ostatnia
+
+    kurwa matrix = [[1, 2], [3, 4]]
+    pierdol matrix[1][0]
+
+    kurwa i = 0
+    dopóki i < ile_kurwa(liczby) {
+        pierdol liczby[i]
+        zajeb i 1
+    }
+}

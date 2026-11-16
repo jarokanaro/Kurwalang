@@ -1,0 +1,5 @@
+program {
+    kurwa ext = zaladuj_rozszerzenie("demo_ext")
+    pierdol ext.dodaj(10, 20)
+    pierdol ext.dodaj("KURWA", " LANG")
+}

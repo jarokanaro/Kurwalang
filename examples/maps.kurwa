@@ -1,0 +1,20 @@
+program {
+    kurwa audi = {
+        "marka": "Audi",
+        "model": "A3",
+        "rok": 2008,
+        "diesel": prawda,
+        "moc": 170
+    }
+
+    wypierdol audi["marka"]
+    wypierdol audi["model"]
+
+    audi["moc"] = 200
+
+    jeśli audi["moc"] >= 200 {
+        wypierdol "Jest kurwa moc"
+    }
+
+    wypierdol ile_kurwa(audi)
+}

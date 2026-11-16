@@ -1,0 +1,10 @@
+program {
+    wjebaj {
+        wyrzuc_kurwa "dupa"
+    } zlap_kurwa blad {
+        pierdol blad["typ_kurwa"]
+        pierdol blad["wiadomosc_kurwa"]
+    } wyczysc_kurwa {
+        wypierdol "cleanup"
+    }
+}

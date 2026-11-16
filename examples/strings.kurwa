@@ -1,0 +1,17 @@
+program {
+    kurwa marka = "Audi"
+    kurwa model = "A3"
+    kurwa auto = marka + " " + model
+
+    wypierdol auto
+    wypierdol wielkie_kurwa(auto)
+
+    jeśli zawiera_kurwa(auto, "Audi") {
+        wypierdol "Znaleziono Audi, kurwa"
+    }
+
+    kurwa zmienione = zamien_kurwa(auto, "A3", "RS3")
+    wypierdol zmienione
+    wypierdol auto[0:4]
+    wypierdol ile_kurwa(auto)
+}

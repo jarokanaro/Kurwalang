@@ -1,0 +1,3 @@
+program {
+    pierdol "Moduł losuj jest dostarczany przez runtime standard library"
+}

@@ -1,0 +1,5 @@
+program {
+    zajeb_moduł "dane"
+    kurwa config = {"nazwa": "KURWA LANG", "wersja": 1.2}
+    pierdol dane.skurw(config)
+}

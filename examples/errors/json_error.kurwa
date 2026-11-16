@@ -1,0 +1,9 @@
+program {
+    wjebaj {
+        zajeb_moduł "dane"
+        kurwa x = dane.odkurw("{bad json}")
+    } zlap_kurwa blad {
+        pierdol blad["typ_kurwa"]
+        pierdol blad["wiadomosc_kurwa"]
+    }
+}

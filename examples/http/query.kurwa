@@ -1,0 +1,8 @@
+program {
+    zajeb_moduł "siec"
+
+    kurwa query = {"q": "żółć 😎", "limit": 2}
+    kurwa odp = siec.wjeb("http://127.0.0.1:8765/query", query)
+
+    pierdol odp["tekst_kurwa"]
+}

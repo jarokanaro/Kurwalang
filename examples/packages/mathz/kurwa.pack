@@ -1,0 +1,5 @@
+nazwa: mathz
+wersja: 1.2.0
+wymagana_wersja_kurwa: 1.4.0
+zależności:
+  helper: >=1.0.0

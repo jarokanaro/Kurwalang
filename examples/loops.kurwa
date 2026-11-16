@@ -1,0 +1,12 @@
+program {
+    kurwa licznik = 0
+
+    dopóki licznik < 10 {
+        jeśli licznik == 5 {
+            wypierdalaj
+        }
+
+        wypierdol licznik
+        zajeb licznik 1
+    }
+}

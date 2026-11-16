@@ -1,0 +1,4 @@
+program {
+    kurwa ext = zaladuj_rozszerzenie("demo_ext")
+    pierdol ext.dodaj(2, 3)
+}

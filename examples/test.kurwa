@@ -1,0 +1,15 @@
+program {
+
+    kurwa kasa = 500
+
+    jeśli kasa < 100 {
+            co_jest_kurwa "Brak pieniędzy"
+                spierdalaj
+    }
+
+    zajeb kasa 200
+
+    wypierdol "Stan konta:"
+    pierdol kasa
+
+}

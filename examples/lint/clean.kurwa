@@ -1,0 +1,4 @@
+program {
+    kurwa x = 2 + 2
+    pierdol x
+}

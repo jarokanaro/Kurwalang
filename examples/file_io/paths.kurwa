@@ -1,0 +1,8 @@
+program {
+    zajeb_moduł "sciezka"
+    pierdol sciezka.polacz("tmp", "dane.txt")
+    pierdol sciezka.nazwa("tmp/dane.txt")
+    pierdol sciezka.rozszerzenie("tmp/dane.txt")
+    pierdol sciezka.katalog("tmp/dane.txt")
+    pierdol sciezka.absolutna("tmp")
+}

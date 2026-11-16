@@ -1,0 +1,11 @@
+program {
+    odpierdol funkcja f() {
+        wyrzuc_kurwa "z funkcji"
+    }
+
+    wjebaj {
+        f()
+    } zlap_kurwa blad {
+        pierdol blad["wiadomosc_kurwa"]
+    }
+}

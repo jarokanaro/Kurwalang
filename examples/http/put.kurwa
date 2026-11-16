@@ -1,0 +1,7 @@
+program {
+    zajeb_moduł "siec"
+
+    kurwa odp = siec.wrzuć("http://127.0.0.1:8765/put", "dupa")
+    pierdol odp["status_kurwa"]
+    pierdol odp["tekst_kurwa"]
+}

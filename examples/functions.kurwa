@@ -1,0 +1,24 @@
+program {
+    odpierdol funkcja przywitaj(imie) {
+        wypierdol imie
+    }
+
+    odpierdol funkcja dodaj(a, b) {
+        oddaj a + b
+    }
+
+    odpierdol funkcja silnia(n) {
+        jeśli n <= 1 {
+            oddaj 1
+        }
+        oddaj n * silnia(n - 1)
+    }
+
+    przywitaj("Jaro")
+
+    kurwa suma = dodaj(10, 20)
+    pierdol suma
+
+    kurwa wynik = silnia(5)
+    pierdol wynik
+}

@@ -1,0 +1,7 @@
+program {
+    zajeb_moduł "dane"
+    kurwa osoba = {"imie": "Jaro", "wiek": 19, "aktywny": prawda}
+    kurwa tekst = dane.skurw(osoba)
+    pierdol tekst
+    pierdol dane.odkurw(tekst)["imie"]
+}

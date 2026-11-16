@@ -1,0 +1,17 @@
+program {
+    zajeb_moduł "matematyka"
+    zajeb_moduł "losuj"
+    zajeb_moduł "tekst"
+    zajeb_moduł "czas"
+    zajeb_moduł "system"
+
+    kurwa marki = ["Audi", "BMW", "Mercedes"]
+    kurwa marka = losuj.element(marki)
+    kurwa moc = losuj.liczba(100, 500)
+    kurwa opis = tekst.powtorz("kurwa ", 2) + marka
+
+    wypierdol opis
+    wypierdol moc
+    wypierdol matematyka.zaokraglij_kurwa(matematyka.PI)
+    wypierdol system.wersja()
+}

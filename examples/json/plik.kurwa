@@ -1,0 +1,7 @@
+program {
+    zajeb_moduł "dane"
+    kurwa config = {"nazwa": "KURWA LANG", "wersja": "1.2"}
+    dane.zapisz("config.json", config)
+    kurwa odczyt = dane.czytaj("config.json")
+    pierdol odczyt["nazwa"]
+}

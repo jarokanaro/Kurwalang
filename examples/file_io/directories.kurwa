@@ -1,0 +1,6 @@
+program {
+    zajeb_moduł "katalog"
+    katalog.utworz("tmp_kurwa")
+    pierdol katalog.czy_jest("tmp_kurwa")
+    pierdol katalog.lista(".")
+}

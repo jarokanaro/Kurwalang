@@ -1,0 +1,3 @@
+program {
+    pierdol "Moduł czas jest dostarczany przez runtime standard library"
+}

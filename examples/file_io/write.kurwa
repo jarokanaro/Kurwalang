@@ -1,0 +1,4 @@
+program {
+    zajeb_moduł "plik"
+    plik.zapisz("write_demo.txt", "Kurwa działa\n")
+}

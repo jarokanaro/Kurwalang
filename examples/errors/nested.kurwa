@@ -1,0 +1,12 @@
+program {
+    wjebaj {
+        wjebaj {
+            wyrzuc_kurwa "wewnętrzny"
+        } zlap_kurwa inner {
+            pierdol inner["wiadomosc_kurwa"]
+            wyrzuc_kurwa "z zewnątrz"
+        }
+    } zlap_kurwa outer {
+        pierdol outer["wiadomosc_kurwa"]
+    }
+}

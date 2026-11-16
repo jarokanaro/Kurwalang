@@ -1,0 +1,10 @@
+program {
+    zajeb_moduł "dane"
+    zajeb_moduł "siec"
+
+    kurwa payload = {"imie": "Jaro", "tekst": "żółć 😎", "aktywny": prawda}
+    kurwa odp = siec.wyślij("http://127.0.0.1:8765/json-echo", payload)
+
+    pierdol odp["status_kurwa"]
+    pierdol odp["json_kurwa"]["echo"]["tekst"]
+}

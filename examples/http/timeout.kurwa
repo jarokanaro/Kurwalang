@@ -1,0 +1,6 @@
+program {
+    zajeb_moduł "siec"
+
+    kurwa odp = siec.wjeb("http://127.0.0.1:8765/slow", {}, {}, 0.05)
+    pierdol odp["status_kurwa"]
+}

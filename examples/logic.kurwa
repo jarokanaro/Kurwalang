@@ -1,0 +1,21 @@
+program {
+    kurwa wiek = 20
+    kurwa kasa = 500
+    kurwa dokument = prawda
+
+    jeśli wiek >= 18 i kasa >= 100 i dokument {
+        wypierdol "Możesz wejść, kurwa"
+    } inaczej {
+        wypierdol "Nie możesz wejść"
+    }
+
+    kurwa zamkniete = fałsz
+    jeśli nie zamkniete {
+        wypierdol "Sklep otwarty"
+    }
+
+    kurwa weekend = prawda
+    jeśli weekend albo zamkniete {
+        wypierdol "Specjalne warunki"
+    }
+}

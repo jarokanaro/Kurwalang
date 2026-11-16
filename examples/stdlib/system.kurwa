@@ -1,0 +1,3 @@
+program {
+    pierdol "Moduł system jest dostarczany przez runtime standard library"
+}

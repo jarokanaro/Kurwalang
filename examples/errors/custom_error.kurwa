@@ -1,0 +1,9 @@
+program {
+    wjebaj {
+        wyrzuc_kurwa "błąd użytkownika"
+    } zlap_kurwa blad {
+        pierdol blad["typ_kurwa"]
+        pierdol blad["wiadomosc_kurwa"]
+        pierdol blad["zrodlo_kurwa"]
+    }
+}

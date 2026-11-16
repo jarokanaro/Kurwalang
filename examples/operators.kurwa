@@ -1,0 +1,26 @@
+program {
+    kurwa x = 10
+    kurwa y = 5
+
+    kurwa suma = x + y
+    kurwa roznica = x - y
+    kurwa iloczyn = x * y
+    kurwa iloraz = x / y
+    kurwa wynik = (x + y) * 2
+
+    pierdol suma
+    pierdol roznica
+    pierdol iloczyn
+    pierdol iloraz
+    pierdol wynik
+
+    jeśli wynik >= 30 {
+        wypierdol "Wynik co najmniej 30"
+    } inaczej {
+        wypierdol "Wynik ponizej 30"
+    }
+
+    jeśli wynik == 30 {
+        wypierdol "Dokładnie 30"
+    }
+}
